@@ -25,7 +25,7 @@ mode.insert = "INS=>"
 mode.select = "SEL=>"
 
 [editor.lsp]
-display-inlay-hints = true
+display-inlay-hints = false
 
 [keys.normal]
 space."." = "file_picker_in_current_buffer_directory"
