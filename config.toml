@@ -1,4 +1,4 @@
-theme = "kanagawa-dragon"
+theme = "kanagawa_transparent"
 
 [editor]
 mouse        = true
@@ -18,10 +18,10 @@ hidden = false
 left        = [ "mode", "spinner", "diagnostics" ]
 center      = [ "file-name", "separator", "version-control" ]
 right       = [ "position", "separator", "total-line-numbers" ]
-separator   = "=== "
-mode.normal = "NOR=>"
-mode.insert = "INS=>"
-mode.select = "SEL=>"
+separator   = "= "
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
 
 [editor.whitespace.render]
 space="all"
