@@ -1,0 +1,115 @@
+"tag" = { fg = "light-red" }
+"attribute" = { fg = "yellow" }
+"comment" = { fg = "light-purple" }
+"constant" = { fg = "green" }
+"constant.numeric" = { fg = "green" }
+"constant.builtin" = { fg = "green" }
+"constant.character.escape" = { fg = "green" }
+"constructor" = { fg = "light-blue" }
+"function" = { fg = "light-blue" }
+"function.builtin" = { fg = "light-blue" }
+"function.macro" = { fg = "light-purple" }
+"keyword" = { fg = "light-red" }
+"keyword.control" = { fg = "light-purple" }
+"keyword.control.import" = { fg = "yellow" }
+"keyword.directive" = { fg = "light-cyan" }
+"keyword.storage" = { fg = "light-cyan" }
+"label" = { fg = "light-purple" }
+"namespace" = { fg = "green" }
+"operator" = { fg = "green" }
+"keyword.operator" = { fg = "light-red" }
+"special" = { fg = "cyan" }
+"string" = { fg = "light-green" }
+"type" = { fg = "yellow" }
+"variable.builtin" = { fg = "light-yellow" }
+"variable.parameter" = { fg = "light-red" }
+"variable.other.member" = { fg = "light-red" }
+
+"markup.heading" = { fg = "red" }
+"markup.raw.inline" = { fg = "green" }
+"markup.bold" = { fg = "light-yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "light-purple", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.list" = { fg = "light-red" }
+"markup.quote" = { fg = "yellow" }
+"markup.link.url" = { fg = "cyan", modifiers = ["underlined"]}
+"markup.link.text" = { fg = "purple" }
+
+"diff.plus" = "green"
+"diff.delta" = "light-yellow"
+"diff.minus" = "red"
+
+"diagnostic.info".underline = { color = "blue", style = "curl" } 
+"diagnostic.hint".underline = { color = "green", style = "curl" } 
+"diagnostic.warning".underline = { color = "yellow", style = "curl" } 
+"diagnostic.error".underline = { color = "red", style = "curl" } 
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"info" = { fg = "blue", modifiers = ["bold"] }
+"hint" = { fg = "green", modifiers = ["bold"] }
+"warning" = { fg = "yellow", modifiers = ["bold"] }
+"error" = { fg = "red", modifiers = ["bold"] }
+
+"ui.virtual" = { fg = "black" }
+"ui.virtual.indent-guide" = { fg = "light-black" }
+"ui.virtual.whitespace" = { fg = "light-black" }
+"ui.virtual.ruler" = { bg = "black" }
+"ui.virtual.inlay-hint" = { fg = "white" }
+"ui.virtual.jump-label" = { fg = "white", modifiers = ["bold"] }
+
+"ui.cursor" = { fg = "white", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "white", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "light-cyan", modifiers = ["underlined"]}
+
+"ui.selection" = { bg = "light-black" }
+"ui.selection.primary" = { bg = "light-black" }
+"ui.cursorline.primary" = { bg = "black" }
+
+"ui.highlight" = { bg = "light-black" }
+"ui.highlight.frameline" = {}
+
+"ui.linenr" = { fg = "light-black" }
+"ui.linenr.selected" = { fg = "bright-white" }
+
+"ui.statusline" = { fg = "white" }
+"ui.statusline.inactive" = { fg = "white" }
+"ui.statusline.normal" = { fg = "white", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "white", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "white", modifiers = ["bold"] }
+
+"ui.bufferline" = { fg = "purple", bg = "light-black" }
+"ui.bufferline.active" = { fg = "bright-white", bg = "blue", underline = { color = "light-black", style = "line" } }
+"ui.bufferline.background" = { bg = "light-black" }
+
+"ui.text" = { fg = "white" }
+"ui.text.focus" = { fg = "bright-white", bg = "black", modifiers = ["bold"] }
+
+"ui.help" = { fg = "white", bg = "light-black" }
+"ui.popup" = { bg = "black" }
+"ui.window" = { fg = "black" }
+"ui.menu" = { fg = "bright-white", bg = "light-black" }
+"ui.menu.selected" = { fg = "black", bg = "light-blue" }
+"ui.menu.scroll" = { fg = "white", bg = "light-black" }
+
+"ui.debug" = { fg = "red" }
+
+[palette]
+background="#080703"
+foreground="#DAE3EB"
+
+black="#0F2733"
+light-black="#1B465C"
+red="#694D39"
+light-red="#997154"
+green="#5EA331"
+light-green="#9DC489"
+yellow="#CC6114"
+light-yellow="#DAED61"
+blue="#2B5A73"
+light-blue="#3A7899"
+purple="#52314C"
+light-purple="#73456B"
+cyan="#57849C"
+light-cyan="#74B0CF"
+white="#9EA5AB"
+bright-white="#DAE3EB"
