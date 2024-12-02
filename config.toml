@@ -1,4 +1,4 @@
-theme = "everblush_transparent"
+theme = "gruvbox_transparent"
 
 [editor]
 mouse        = true
