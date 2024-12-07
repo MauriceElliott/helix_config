@@ -1,29 +1,29 @@
 "tag" = { fg = "light-red" }
-"attribute" = { fg = "yellow" }
-"comment" = { fg = "light-purple" }
+"attribute" = { fg = "light-yellow" }
+"comment" = { fg = "light-black" }
 "constant" = { fg = "green" }
-"constant.numeric" = { fg = "green" }
-"constant.builtin" = { fg = "green" }
-"constant.character.escape" = { fg = "green" }
+"constant.numeric" = { fg = "light-yellow" }
+"constant.builtin" = { fg = "light-green" }
+"constant.character.escape" = { fg = "cyan" }
 "constructor" = { fg = "light-blue" }
-"function" = { fg = "light-blue" }
-"function.builtin" = { fg = "light-blue" }
-"function.macro" = { fg = "light-purple" }
-"keyword" = { fg = "light-red" }
-"keyword.control" = { fg = "light-purple" }
-"keyword.control.import" = { fg = "yellow" }
+"function" = { fg = "light-red" }
+"function.builtin" = { fg = "cyan" }
+"function.macro" = { fg = "light-yellow" }
+"keyword" = { fg = "light-green" }
+"keyword.control" = { fg = "light-cyan" }
+"keyword.control.import" = { fg = "light-cyan" }
 "keyword.directive" = { fg = "light-cyan" }
-"keyword.storage" = { fg = "light-cyan" }
-"label" = { fg = "light-purple" }
-"namespace" = { fg = "green" }
-"operator" = { fg = "green" }
-"keyword.operator" = { fg = "light-red" }
-"special" = { fg = "cyan" }
+"keyword.storage" = { fg = "light-blue" }
+"label" = { fg = "bright-white" }
+"namespace" = { fg = "bright-white" }
+"operator" = { fg = "bright-white" }
+"keyword.operator" = { fg = "bright-white" }
+"special" = { fg = "bright-white" }
 "string" = { fg = "light-green" }
-"type" = { fg = "yellow" }
+"type" = { fg = "light-cyan" }
 "variable.builtin" = { fg = "light-yellow" }
-"variable.parameter" = { fg = "light-red" }
-"variable.other.member" = { fg = "light-red" }
+"variable.parameter" = { fg = "bright-white" }
+"variable.other.member" = { fg = "bright-white" }
 
 "markup.heading" = { fg = "red" }
 "markup.raw.inline" = { fg = "green" }
@@ -37,7 +37,7 @@
 
 "diff.plus" = "green"
 "diff.delta" = "light-yellow"
-"diff.minus" = "red"
+"diff.minus" = "yellow"
 
 "diagnostic.info".underline = { color = "blue", style = "curl" } 
 "diagnostic.hint".underline = { color = "green", style = "curl" } 
