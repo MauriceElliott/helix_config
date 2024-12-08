@@ -1,6 +1,6 @@
 "tag" = { fg = "light-red" }
 "attribute" = { fg = "light-yellow" }
-"comment" = { fg = "light-black" }
+"comment" = { fg = "blue" }
 "constant" = { fg = "green" }
 "constant.numeric" = { fg = "light-yellow" }
 "constant.builtin" = { fg = "light-green" }
@@ -16,16 +16,16 @@
 "keyword.storage" = { fg = "light-blue" }
 "label" = { fg = "bright-white" }
 "namespace" = { fg = "bright-white" }
-"operator" = { fg = "bright-white" }
-"keyword.operator" = { fg = "bright-white" }
+"operator" = { fg = "light-blue" }
+"keyword.operator" = { fg = "light-red" }
 "special" = { fg = "bright-white" }
-"string" = { fg = "light-green" }
-"type" = { fg = "light-cyan" }
+"string" = { fg = "green" }
+"type" = { fg = "cyan" }
 "variable.builtin" = { fg = "light-yellow" }
-"variable.parameter" = { fg = "bright-white" }
-"variable.other.member" = { fg = "bright-white" }
+"variable.parameter" = { fg = "light-yellow" }
+"variable.other.member" = { fg = "bright-purple" }
 
-"markup.heading" = { fg = "red" }
+"markup.heading" = { fg = "light-red" }
 "markup.raw.inline" = { fg = "green" }
 "markup.bold" = { fg = "light-yellow", modifiers = ["bold"] }
 "markup.italic" = { fg = "light-purple", modifiers = ["italic"] }
@@ -33,7 +33,7 @@
 "markup.list" = { fg = "light-red" }
 "markup.quote" = { fg = "yellow" }
 "markup.link.url" = { fg = "cyan", modifiers = ["underlined"]}
-"markup.link.text" = { fg = "purple" }
+"markup.link.text" = { fg = "bright-purple" }
 
 "diff.plus" = "light-green"
 "diff.delta" = "purple"
@@ -56,6 +56,7 @@
 "ui.virtual.ruler" = { bg = "black" }
 "ui.virtual.inlay-hint" = { fg = "white" }
 "ui.virtual.jump-label" = { fg = "white", modifiers = ["bold"] }
+"ui.background" = {bg = "background"}
 
 "ui.cursor" = { fg = "bright-white", modifiers = ["reversed"] }
 "ui.cursor.primary" = { fg = "bright-white", modifiers = ["reversed"] }
@@ -78,10 +79,10 @@
 "ui.statusline.select" = { fg = "white", modifiers = ["bold"] }
 
 "ui.bufferline" = { fg = "cyan", bg = "black" }
-"ui.bufferline.active" = { fg = "light-cyan", bg = "light-black", underline = { color = "black", style = "line" } }
+"ui.bufferline.active" = { fg = "bright-white", bg = "light-black", underline = { color = "black", style = "line" } }
 "ui.bufferline.background" = { bg = "black" }
 
-"ui.text" = { fg = "white" }
+"ui.text" = { fg = "bright-white" }
 "ui.text.focus" = { fg = "bright-white", bg = "black", modifiers = ["bold"] }
 
 "ui.help" = { fg = "white", bg = "black" }
@@ -100,16 +101,17 @@ foreground="#DAE3EB"
 black="#0F2733"
 light-black="#1B465C"
 red="#694D39"
-light-red="#997154"
-green="#5EA331"
+light-red="#D9654E"
+green="#72AB4D"
 light-green="#9DC489"
 yellow="#CC6114"
 light-yellow="#DAED61"
 blue="#2B5A73"
-light-blue="#3A7899"
+light-blue="#628BC4" 
 purple="#52314C"
 light-purple="#73456B"
-cyan="#57849C"
+bright-purple="#C357D9"
+cyan="#43BFAB"
 light-cyan="#74B0CF"
 white="#9EA5AB"
 bright-white="#DAE3EB"
