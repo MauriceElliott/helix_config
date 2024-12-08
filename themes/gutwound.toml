@@ -35,9 +35,9 @@
 "markup.link.url" = { fg = "cyan", modifiers = ["underlined"]}
 "markup.link.text" = { fg = "purple" }
 
-"diff.plus" = "green"
-"diff.delta" = "light-yellow"
-"diff.minus" = "yellow"
+"diff.plus" = "light-green"
+"diff.delta" = "purple"
+"diff.minus" = "red"
 
 "diagnostic.info".underline = { color = "blue", style = "curl" } 
 "diagnostic.hint".underline = { color = "green", style = "curl" } 
@@ -57,41 +57,41 @@
 "ui.virtual.inlay-hint" = { fg = "white" }
 "ui.virtual.jump-label" = { fg = "white", modifiers = ["bold"] }
 
-"ui.cursor" = { fg = "white", modifiers = ["reversed"] }
-"ui.cursor.primary" = { fg = "white", modifiers = ["reversed"] }
-"ui.cursor.match" = { fg = "light-cyan", modifiers = ["underlined"]}
+"ui.cursor" = { fg = "bright-white", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "bright-white", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "bight-white", modifiers = ["underlined"]}
 
-"ui.selection" = { bg = "light-black" }
-"ui.selection.primary" = { bg = "light-black" }
+"ui.selection" = { bg = "blue" }
+"ui.selection.primary" = { bg = "purple" }
 "ui.cursorline.primary" = { bg = "black" }
 
 "ui.highlight" = { bg = "light-black" }
 "ui.highlight.frameline" = {}
 
-"ui.linenr" = { fg = "light-black" }
-"ui.linenr.selected" = { fg = "bright-white" }
+"ui.linenr" = { fg = "blue" }
+"ui.linenr.selected" = { fg = "white" }
 
-"ui.statusline" = { fg = "white" }
+"ui.statusline" = { fg = "bright-white", bg="black" }
 "ui.statusline.inactive" = { fg = "white" }
 "ui.statusline.normal" = { fg = "white", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "white", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "white", modifiers = ["bold"] }
 
-"ui.bufferline" = { fg = "purple", bg = "light-black" }
-"ui.bufferline.active" = { fg = "bright-white", bg = "blue", underline = { color = "light-black", style = "line" } }
-"ui.bufferline.background" = { bg = "light-black" }
+"ui.bufferline" = { fg = "cyan", bg = "black" }
+"ui.bufferline.active" = { fg = "light-cyan", bg = "light-black", underline = { color = "black", style = "line" } }
+"ui.bufferline.background" = { bg = "black" }
 
 "ui.text" = { fg = "white" }
 "ui.text.focus" = { fg = "bright-white", bg = "black", modifiers = ["bold"] }
 
-"ui.help" = { fg = "white", bg = "light-black" }
+"ui.help" = { fg = "white", bg = "black" }
 "ui.popup" = { bg = "black" }
 "ui.window" = { fg = "black" }
-"ui.menu" = { fg = "bright-white", bg = "light-black" }
-"ui.menu.selected" = { fg = "black", bg = "light-blue" }
-"ui.menu.scroll" = { fg = "white", bg = "light-black" }
+"ui.menu" = { fg = "bright-white", bg = "black" }
+"ui.menu.selected" = { fg = "black", bg = "blue" }
+"ui.menu.scroll" = { fg = "white", bg = "black" }
 
-"ui.debug" = { fg = "red" }
+"ui.debug" = { fg = "light-red" }
 
 [palette]
 background="#080703"
