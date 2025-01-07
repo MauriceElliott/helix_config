@@ -1,42 +1,42 @@
-"tag" = { fg = "red" }
-"attribute" = { fg = "light-red" }
+"tag" = { fg = "light-yellow" }
+"attribute" = { fg = "light-blue" }
 "comment" = { fg = "whitespace" }
-"constant" = { fg = "green" }
-"constant.numeric" = { fg = "light-red" }
-"constant.builtin" = { fg = "green" }
-"constant.character.escape" = { fg = "cyan" }
-"constructor" = { fg = "blue" }
-"function" = { fg = "red" }
-"function.builtin" = { fg = "cyan" }
-"function.macro" = { fg = "blue" }
-"keyword" = { fg = "light-green" }
-"keyword.control" = { fg = "cyan" }
-"keyword.control.import" = { fg = "light-cyan" }
+"constant" = { fg = "light-green" }
+"constant.numeric" = { fg = "yellow", modifier=["bold"] }
+"constant.builtin" = { fg = "light-green" }
+"constant.character.escape" = { fg = "light-yellow" }
+"constructor" = { fg = "light-blue" }
+"function" = { fg = "light-green" }
+"function.builtin" = { fg = "light-blue" }
+"function.macro" = { fg = "light-blue" }
+"keyword" = { fg = "cyan" }
+"keyword.control" = { fg = "light-red" }
+"keyword.control.import" = { fg = "light-red" }
 "keyword.directive" = { fg = "cyan" }
 "keyword.storage" = { fg = "blue" }
-"label" = { fg = "light-white" }
-"namespace" = { fg = "light-black" }
-"operator" = { fg = "light-red" }
+"label" = { fg = "blue" }
+"namespace" = { fg = "blue" }
+"operator" = { fg = "blue" }
 "keyword.operator" = { fg = "red" }
 "special" = { fg = "white" }
-"string" = { fg = "cyan" }
-"string.escape" = "cyan"
+"string" = { fg = "light-green" }
+"string.escape" = "light-green"
 "string.regex" = "light-red"
-"string.special" = "cyan"
-"type" = { fg = "light-black" }
-"variable.builtin" = { fg = "light-red" }
-"variable.parameter" = { fg = "light-red" }
-"variable.other.member" = { fg = "light-red" }
+"string.special" = "light-green"
+"type" = { fg = "purple" }
+"variable.builtin" = { fg = "light-purple" }
+"variable.parameter" = { fg = "light-purple" }
+"variable.other.member" = { fg = "light-purple" }
 
-"markup.heading" = { fg = "red" }
+"markup.heading" = { fg = "light-red", modifiers = ["bold"] }
 "markup.raw.inline" = { fg = "blue" }
-"markup.bold" = { fg = "cyan", modifiers = ["bold"] }
-"markup.italic" = { fg = "cyan", modifiers = ["italic"] }
+"markup.bold" = { fg = "black", modifiers = ["bold"] }
+"markup.italic" = { fg = "black", modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 "markup.list" = { fg = "green" }
-"markup.quote" = { fg = "black" }
-"markup.link.url" = { fg = "cyan", modifiers = ["underlined"]}
-"markup.link.text" = { fg = "black" }
+"markup.quote" = { fg = "light-black" }
+"markup.link.url" = { fg = "yellow", modifiers = ["bold", "underlined"]}
+"markup.link.text" = { fg = "light-yellow" }
 
 
 #DONE
@@ -98,7 +98,7 @@
 "ui.popup" = { bg = "white", fg = "black" }
 "ui.window" = {bg = "white", fg = "black" }
 "ui.debug" = { fg = "light-red" }
-"ui.menu" = { bg = "light-white", fg = "blue" }
+"ui.menu" = { bg = "white", fg = "blue" }
 "ui.menu.selected" = { bg = "yellow", fg = "blue" }
 "ui.menu.scroll" = { bg = "light-white", fg = "blue" }
 "ui.picker.header" = { bg = "white", fg = "black" }
@@ -106,20 +106,18 @@
 "ui.picker.header.column.active" = { bg = "light-red", fg = "light-blue" }
 
 [palette]
-background="#C0BCAC"
-foreground="#2B2A2A"
 black="#2B2A2A"
 light-black="#402F27"
 red="#662A37"
 light-red="#992C34"
 green="#244E33"
-light-green="#416647"
+light-green="#53825A"
 yellow="#B67F21"
 light-yellow="#ADAD39"
 blue="#3A4A67"
 light-blue="#5B89A7"
-purple="#451D2D"
-light-purple="#7D4957"
+purple="#674C8B"
+light-purple="#954C5F"
 aqua="#457A7A"
 light-aqua="#328E8F"
 white="#CDC8B0"
