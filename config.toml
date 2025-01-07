@@ -24,8 +24,8 @@ mode.insert = "INSERT"
 mode.select = "SELECT"
 
 [editor.whitespace.render]
-space="all"
-tab="all"
+space="none"
+tab="none"
 nbsp="none"
 nnbsp="none"
 newline="none"
