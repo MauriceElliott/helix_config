@@ -1,4 +1,4 @@
-theme = "automata_transparent"
+theme = "automata"
 
 [editor]
 mouse        = true
@@ -18,7 +18,7 @@ hidden = false
 left        = [ "mode", "spinner", "diagnostics" ]
 center      = [ "file-name", "separator", "version-control" ]
 right       = [ "position", "separator", "total-line-numbers" ]
-separator   = "= "
+separator   = "<==> "
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
