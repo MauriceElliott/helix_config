@@ -18,10 +18,14 @@ hidden = false
 left        = [ "mode", "spinner", "diagnostics" ]
 center      = [ "file-name", "separator", "version-control" ]
 right       = [ "position", "separator", "total-line-numbers" ]
-separator   = "<==> "
+separator   = "=== "
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
+
+[editor.soft-wrap]
+enable = true
+
 
 [editor.whitespace.render]
 space="none"
