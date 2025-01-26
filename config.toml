@@ -26,6 +26,9 @@ mode.select = "SELECT"
 [editor.soft-wrap]
 enable = true
 
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "error"
 
 [editor.whitespace.render]
 space="none"
@@ -38,8 +41,8 @@ newline="none"
 space="·"
 tab="·"
 
-[editor.lsp]
-display-inlay-hints = false
+# [editor.lsp]
+# display-inlay-hints = false
 
 [keys.normal]
 space."." = "file_picker_in_current_buffer_directory"
