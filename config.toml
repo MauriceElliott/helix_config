@@ -6,6 +6,9 @@ auto-save    = true
 cursorline   = true
 bufferline   = "always"
 
+[editor.lsp]
+auto-signature-help = false
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
