@@ -5,6 +5,7 @@ mouse        = true
 auto-save    = true
 cursorline   = true
 bufferline   = "always"
+true-color   = true
 
 [editor.lsp]
 auto-signature-help = false
