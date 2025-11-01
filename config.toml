@@ -22,10 +22,10 @@ hidden = false
 left        = [ "mode", "spinner", "diagnostics" ]
 center      = [ "file-name", "separator", "version-control" ]
 right       = [ "position", "separator", "total-line-numbers" ]
-separator   = "=== "
-mode.normal = "NORMAL"
-mode.insert = "INSERT"
-mode.select = "SELECT"
+separator   = "|| "
+mode.normal = "NRML"
+mode.insert = "INSR"
+mode.select = "SLCT"
 
 [editor.soft-wrap]
 enable = true
@@ -44,9 +44,6 @@ newline="none"
 [editor.whitespace.characters]
 space="·"
 tab="·"
-
-# [editor.lsp]
-# display-inlay-hints = false
 
 [keys.normal]
 space."." = "file_picker_in_current_buffer_directory"
