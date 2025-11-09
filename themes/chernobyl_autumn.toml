@@ -1,0 +1,120 @@
+"tag" = { fg = "light-red" }
+"attribute" = { fg = "light-yellow" }
+"comment" = { fg = "blue" }
+"constant" = { fg = "green" }
+"constant.numeric" = { fg = "light-yellow" }
+"constant.builtin" = { fg = "light-green" }
+"constant.character.escape" = { fg = "cyan" }
+"constructor" = { fg = "light-blue" }
+"function" = { fg = "light-red" }
+"function.builtin" = { fg = "cyan" }
+"function.macro" = { fg = "light-yellow" }
+"keyword" = { fg = "light-green" }
+"keyword.control" = { fg = "light-cyan" }
+"keyword.control.import" = { fg = "light-cyan" }
+"keyword.directive" = { fg = "light-cyan" }
+"keyword.storage" = { fg = "light-blue" }
+"label" = { fg = "bright-white" }
+"namespace" = { fg = "bright-white" }
+"operator" = { fg = "light-blue" }
+"keyword.operator" = { fg = "light-red" }
+"special" = { fg = "bright-white" }
+"string" = { fg = "green" }
+"string.escape" = "light-green"
+"string.regex" = "light-green"
+"string.special" = "cyan"
+"type" = { fg = "cyan" }
+"variable.builtin" = { fg = "light-yellow" }
+"variable.parameter" = { fg = "light-yellow" }
+"variable.other.member" = { fg = "bright-purple" }
+
+"markup.heading" = { fg = "light-red" }
+"markup.raw.inline" = { fg = "light-blue" }
+"markup.bold" = { fg = "light-cyan", modifiers = ["bold"] }
+"markup.italic" = { fg = "light-cyan", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.list" = { fg = "light-green" }
+"markup.quote" = { fg = "white" }
+"markup.link.url" = { fg = "cyan", modifiers = ["underlined"]}
+"markup.link.text" = { fg = "light-yellow" }
+
+"diff.plus" = "light-green"
+"diff.delta" = "purple"
+"diff.minus" = "red"
+
+"diagnostic.info".underline = { color = "blue", style = "curl" } 
+"diagnostic.hint".underline = { color = "green", style = "curl" } 
+"diagnostic.warning".underline = { color = "yellow", style = "curl" } 
+"diagnostic.error".underline = { color = "red", style = "curl" } 
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"info" = { fg = "blue", modifiers = ["bold"] }
+"hint" = { fg = "green", modifiers = ["bold"] }
+"warning" = { fg = "yellow", modifiers = ["bold"] }
+"error" = { fg = "red", modifiers = ["bold"] }
+
+"ui.virtual" = { fg = "black" }
+"ui.virtual.indent-guide" = { fg = "light-black" }
+"ui.virtual.whitespace" = { fg = "light-black" }
+"ui.virtual.ruler" = { bg = "black" }
+"ui.virtual.inlay-hint" = { fg = "white" }
+"ui.virtual.jump-label" = { fg = "white", modifiers = ["bold"] }
+"ui.background" = {bg = "background"}
+
+"ui.cursor" = { fg = "bright-white", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "bright-white", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "black", bg = "white"}
+
+"ui.selection" = { bg = "blue" }
+"ui.selection.primary" = { bg = "purple" }
+"ui.cursorline.primary" = { bg = "black" }
+
+"ui.highlight" = { bg = "light-black" }
+"ui.highlight.frameline" = {}
+
+"ui.linenr" = { fg = "blue" }
+"ui.linenr.selected" = { fg = "white" }
+
+"ui.statusline" = { fg = "bright-white", bg="black" }
+"ui.statusline.inactive" = { fg = "white" }
+"ui.statusline.normal" = { fg = "white", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "white", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "white", modifiers = ["bold"] }
+
+"ui.bufferline" = { fg = "cyan", bg = "black" }
+"ui.bufferline.active" = { fg = "bright-white", bg = "light-black", underline = { color = "black", style = "line" } }
+"ui.bufferline.background" = { bg = "black" }
+
+"ui.text" = { fg = "bright-white" }
+"ui.text.focus" = { fg = "bright-white", bg = "black", modifiers = ["bold"] }
+
+"ui.help" = { fg = "white", bg = "black" }
+"ui.popup" = { bg = "black" }
+"ui.window" = { fg = "black" }
+"ui.menu" = { fg = "bright-white", bg = "black" }
+"ui.menu.selected" = { fg = "black", bg = "blue" }
+"ui.menu.scroll" = { fg = "white", bg = "black" }
+
+"ui.debug" = { fg = "light-red" }
+
+[palette]
+background="#19181A"
+foreground="#DDF0F0"
+
+black="#19181A"
+light-black="#312F33"
+red="#993636"
+light-red="#993636"
+green="#268062"
+light-green="#96B359"
+yellow="#B39536"
+light-yellow="#B39536"
+blue="#4B5C94"
+light-blue="#4B5C94" 
+purple="#6B50B3"
+light-purple="#6B50B3"
+bright-purple="#6B50B3"
+cyan="#2E97B8"
+light-cyan="#2E97B8"
+white="#DDF0F0"
+bright-white="#DDF0F0"
