@@ -12,7 +12,7 @@
 "keyword" = { fg = "light-aqua" }
 "keyword.control" = { fg = "light-red" }
 "keyword.control.import" = { fg = "light-red" }
-"keyword.directive" = { fg = "cyan" }
+"keyword.directive" = { fg = "light-green" }
 "keyword.storage" = { fg = "blue" }
 "label" = { fg = "blue" }
 "namespace" = { fg = "blue" }
