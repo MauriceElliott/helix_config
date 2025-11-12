@@ -6,6 +6,7 @@ auto-save    = true
 cursorline   = true
 bufferline   = "always"
 true-color   = true
+line-number  = "relative"
 
 [editor.lsp]
 auto-signature-help = false
