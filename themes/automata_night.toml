@@ -71,8 +71,9 @@
 "ui.cursor.primary" = { fg = "yellow", bg = "black", modifiers = ["reversed"] }
 "ui.cursor.match" = { fg = "black", bg = "yellow"}
 
-"ui.selection" = { bg = "bright-white" }
-"ui.selection.primary" = { bg = "light-white" }
+"ui.selection" = { bg = "whitespace" }
+"ui.selection.primary" = { bg = "whitespace" }
+
 "ui.cursorline.primary" = { fg = "white", bg = "cursor-line" }
 
 "ui.highlight" = { bg = "light-white" }
