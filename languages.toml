@@ -5,8 +5,6 @@ name = "lua"
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
-name = "pwsh"
-indent = { tab-width = 4, unit = "    " }
-scope = "source.pwsh"
-file-types = ["ps1", "psm1", "psd1"]
+name = "powershell"
+indent = { tab-width = 4, unit = "    "}
 
