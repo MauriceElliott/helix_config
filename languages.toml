@@ -1,10 +1,128 @@
 
+[language-server.copilot]
+command = "copilot-language-server"
+args = ["--stdio"]
+config = {}
 
 [[language]]
 name = "lua"
 indent = { tab-width = 4, unit = "    " }
+language-servers = ["lua-language-server", "copilot"]
 
 [[language]]
 name = "powershell"
-indent = { tab-width = 4, unit = "    "}
+indent = { tab-width = 4, unit = "    " }
+language-servers = ["powershell-editor-services", "copilot"]
+
+[[language]]
+name = "rust"
+language-servers = ["rust-analyzer", "copilot"]
+
+[[language]]
+name = "python"
+language-servers = ["pylsp", "copilot"]
+
+[[language]]
+name = "go"
+language-servers = ["gopls", "copilot"]
+
+[[language]]
+name = "typescript"
+language-servers = ["typescript-language-server", "copilot"]
+
+[[language]]
+name = "javascript"
+language-servers = ["typescript-language-server", "copilot"]
+
+[[language]]
+name = "bash"
+language-servers = ["bash-language-server", "copilot"]
+
+[[language]]
+name = "toml"
+language-servers = ["taplo", "copilot"]
+
+[[language]]
+name = "json"
+language-servers = ["vscode-json-language-server", "copilot"]
+
+[[language]]
+name = "yaml"
+language-servers = ["yaml-language-server", "copilot"]
+
+[[language]]
+name = "markdown"
+language-servers = ["marksman"]
+
+[[language]]
+name = "odin"
+language-servers = ["ols", "copilot"]
+
+[[language]]
+name = "hcl"
+language-servers = ["terraform-ls", "copilot"]
+
+[[language]]
+name = "swift"
+language-servers = ["sourcekit-lsp", "copilot"]
+
+[[language]]
+name = "sql"
+language-servers = ["copilot"]
+
+[[language]]
+name = "ocaml"
+language-servers = ["ocamllsp", "copilot"]
+
+[[language]]
+name = "nu"
+language-servers = ["nu-lsp", "copilot"]
+
+[[language]]
+name = "msbuild"
+language-servers = ["copilot"]
+
+[[language]]
+name = "make"
+language-servers = ["copilot"]
+
+[[language]]
+name = "helm"
+language-servers = ["helm_ls", "copilot"]
+
+[[language]]
+name = "gleam"
+language-servers = ["gleam", "copilot"]
+
+[[language]]
+name = "elixir"
+language-servers = ["elixir-ls", "copilot"]
+
+[[language]]
+name = "dockerfile"
+language-servers = ["docker-langserver", "copilot"]
+
+[[language]]
+name = "css"
+language-servers = ["vscode-css-language-server", "copilot"]
+
+[[language]]
+name = "cpp"
+language-servers = ["clangd", "copilot"]
+
+[[language]]
+name = "cmake"
+language-servers = ["neocmakelsp", "copilot"]
+
+[[language]]
+name = "c-sharp"
+language-servers = ["omnisharp", "copilot"]
+
+[[language]]
+name = "c"
+language-servers = ["clangd", "copilot"]
+
+[[language]]
+name = "bicep"
+language-servers = ["bicep-langserver", "copilot"]
 
